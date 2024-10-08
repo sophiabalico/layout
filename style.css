@@ -2,9 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-html {
     font-size: 1rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    background-color: brown;
 }
 
 body {
@@ -15,11 +22,6 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-header {
-    background-color: rgb(255, 0, 0);
-    height: 10rem;
-    margin-right: 1rem;
-}
 
 .top-grid {
     display: flex;
